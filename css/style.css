@@ -1,0 +1,79 @@
+*{
+margin: 0;
+}
+body{
+    background-image: url('../img/moroccan-flower-dark.png');
+}
+/*
+.titulo{
+    font-family: "Playwrite VN", serif;
+}
+@font-face {
+    font-family: "DM Serif Text";
+    src: url(../font/DMSerifText-Regular.ttf);
+}
+h1{
+    background-color: blue;
+    display: block;
+}
+h2{
+    font-family: "DM Serif Text";
+}
+p{background-color: dimgray;}
+a{
+    background-color: beige;
+}
+    */
+    header{
+        background-color: brown;
+    }
+    .caja-logo{
+        background-color: bisque;
+    }
+    ul{
+        background-color: aqua;
+        margin-top: 0px;
+        list-style-type: none;
+        padding-inline-start: 0;
+    }
+    li{
+        background-color: aquamarine;
+        margin-top: 15px;
+        text-align: center;
+    }
+    div{
+        display:flex;
+        justify-content: center;
+    }
+    li a{
+        text-decoration: none;
+        font-size: 25px;
+        font-style: italic;
+    }
+    li a:hover{
+        font-size: 40px;
+        transition: .5s;
+        color: red;
+    }
+    /*MEDIA QUERIES*/
+    @media screen and (min-width: 761px) {
+        body{
+            background-image: url('../img/more-leaves.png');
+        }
+        header{
+            display: flex;  
+        }
+        div{
+            width: 30%;
+        }
+        nav{
+            width: 70%;
+            background-color: blueviolet;
+        }
+        ul{
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }

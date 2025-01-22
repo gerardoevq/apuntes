@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
     <header>
+        <h1 class="animate__animated animate__pulse">An animated element</h1>
         <ul>
             <li><strong>git init</strong> sirve para inicializar mi proyecto con git, git revisare todos los archivos y cambios que hay en el proyecto
             <li><strong>git status</strong>te dice en que rama estas y los chambios a los cuales se le puede hacer commit</li>
-            <li><strong>git add nombre_Del_Archivo</strong> te agrega los archivos y carpetas a la rama</li>
+            <li><strong>git add nombre_Del_Archivo</strong> te agrega un archivo a la zona de trabajo</li>
+            <li><strong>git add -A </strong>agrega varios archivos</li>
             <li><strong>git commit -m "comentario"</strong>hace el commit y se queda el registro con un mensaje indicanco cambios</li>
             <li><strong>git branch</strong> te indica en la rama que estas</li>
             <li><strong>git branch nombre de la rama a crear</strong> crea una rama nueva</li>
@@ -29,7 +35,9 @@
             <li><strong>git remote add origin url de github</strong>sirve para conetar mi proyecto con mi repositorio de github</li>
             <li><strong>git remote -v </strong>revisa que este bien conectado mi proyecto con el repositorio de github</li>
             <li><strong>git push origin nombre de la rama</strong>subo la rama a mi repositorio en mi cuenta de github</li>
+            <li><strong>git pull origin master</strong>descarga las actualizaciones en mi rama master de mi cuenta de github<li>
         </ul>
         </section>
+        <script src="js/bucles.js"></script>
 </body>
 </html>

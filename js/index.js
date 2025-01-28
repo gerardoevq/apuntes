@@ -51,4 +51,5 @@ console.log({}+{})
 var saludar="hola como estas";
 console.log(saludar)
 var alert="sonora";
-alert("hola hermosillo")
+//alert("hola hermosillo")
+console.log(`hola mi nombre es ${nombre}y mi edad es${edad}`)

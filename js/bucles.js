@@ -39,13 +39,13 @@ for (let index = 0; index < 3; index++) {
   }
     
 }*/
-let alumno = [
+/*let alumno = [
     [10, 8, 5, 6, 9],
     [10, 7, 8, 6, 9],
     [10, 4, 5, 6, 9],
     [10, 9, 5, 6, 9],
     [10, 8, 5, 7, 9]
-];
+];*/
 
 /*for (let index = 0; index < alumno.length; index++) {
     for (let indice = 0; indice < alumno[index].length; indice++) {
@@ -96,7 +96,7 @@ for (let index = 0; index < alumno.length; index++) {
     
    }
    console.log(materiasReprobadas)*/
-   let autos= [
+   /*let autos= [
     {modelo:"mustang",año:1962},
     {modelo:"mustang",año:1980},
     {modelo:"corvette",año:1981}
@@ -105,4 +105,12 @@ for (let index = 0; index < alumno.length; index++) {
     //console.log(autos[index].modelo+" del año "+autos[index].año)
     console.log(`${autos[index].modelo} del año ${autos[index].año}`)
    }
-   
+   */
+    let persona={
+        nombre:"gerardo",
+        apellido:"valdez",
+        edad:34
+    }
+    for (const key in persona) {
+        console.log(`propiedad: ${key} valor: ${persona[key]}`)
+    }

@@ -79,7 +79,42 @@ funcionexpresada("hola mundo")*/
 }
 console.log(persona.saludar())*/
 // FUNCION FLECHA 
-let saludar=()=>{
+/*let saludar=()=>{
     console.log("hola mundo")
 }
-saludar()
+saludar()*/
+// funcion flecha resumida
+/*let saludar=hi=>console.log(hi)
+    
+saludar("hola")*/
+// resumir una funcion con varios parametros
+//let suma=(uno,dos)=>uno+dos
+/*let crearObjeto=(nombre,edad)=>{
+    return {
+        name:nombre,
+        age:edad
+    }
+}*/
+//funcion resumida
+/*let crearObjeto=(nombre,edad)=>{
+    return {
+        nombre:nombre,
+        edad:edad
+    }
+}
+let crearObjeto=(nombre,edad)=>{
+    return {
+        nombre,
+        edad
+    }
+}*/
+/*let crearObjeto=(nombre,edad)=>{
+    return {
+        nombre,
+        edad,
+        imprimir:()=>{
+            console.log(`hola mi nombre es ${nombre} y tengo ${edad} años de edad`)
+        }
+    }
+}
+console.log(crearObjeto("gerardo",34).imprimir())*/

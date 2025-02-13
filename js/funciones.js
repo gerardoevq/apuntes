@@ -118,3 +118,20 @@ let crearObjeto=(nombre,edad)=>{
     }
 }
 console.log(crearObjeto("gerardo",34).imprimir())*/
+//funcion anonima clasica
+/*(()=>{
+    console.log("hola mundo")
+})()*/
+//funcion anonima crockford
+/*((function() {
+    console.log("hola mundo")
+})())*/
+//funcion anonima unaria
+/*+function () {
+    console.log("hola mundo")
+}()*/
+// funcion anonima facebook
+/*! function () {
+    console.log("hola mundo")
+}()*/
+

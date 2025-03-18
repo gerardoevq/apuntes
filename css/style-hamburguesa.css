@@ -1,0 +1,86 @@
+/*ESTILOS GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header{
+    background-color: #232323;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top:0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+H1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a{
+   text-decoration: none; 
+   color: white;
+   font-size: 18px;
+}
+
+.nav-links a:hover{
+    color: orange;
+}
+
+.hamburguer{
+    display: none;
+    flex-direction: column;
+}
+
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+/*responsive design*/
+@media (max-width:768px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-links{
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #232323;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        /*efecto de transision*/
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+        margin: 0;
+    }
+    .hamburguer{
+        display: flex;
+    }
+    .nav-links.show{
+        display: flex;
+        background-color: #232323;
+        max-height: 300px;
+    }
+}
